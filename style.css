@@ -1,0 +1,59 @@
+.header {
+  
+  justify-content: space-between;
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 80px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left img {
+  height: 60px;
+}
+
+.header-left .name {
+  color: #eae51f;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right div:first-child {
+  margin-right: 20px;
+}
+
+
+
+
+.title {
+  width:700px; height:200px; padding:15px;
+border:dashed 5px #000000;	
+background-image:url("images/bg_flower.png");
+background-size:contain;
+}
+<div style="background: url("img_3093.jpg");">
+<div class="flex1">
+flex-direction: column
+ <p> {
+ 	font-style:normal; color:red;font-size:200%;
+ 	background-color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 300;
+   -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 70px;
+ } 
+
+ <p> em {
+ 	font-style:normal; color:pink;font-size:80%;
+ }
+
+ body {
+ 	text-indent:1em;
+ }
